@@ -1,0 +1,14 @@
+load data
+
+mean1 = zeros(6, 1);
+mse1 = zeros(6, 1);
+for i=1:6
+    mean1(i) = mean(monk1(:, i));
+    mse1(i) = immse(mean1(i)*ones(len(monk1(:, 1), 1)
+end
+
+mean3 = zeros(6, 1);
+mse3 = zeros(6, 1);
+for i=1:6
+    mean3(i) = mean(monk3(:, i));
+end
