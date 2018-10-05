@@ -12,7 +12,7 @@ Using the provided datasets, a linear kernel provided a very tight-fitting separ
 
 | Linear kernel with provided datasets | Linear kernel with nonlinear dataset |
 | ------------------------------------ | ------------------------------------ |
-| ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L2/Lab_2/assets/png/svmplot_linear_noslack.png "Linear kernel with provided datasets") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L2/Lab_2/assets/png/svmplot_linear_nonlineardata.png "Linear kernel with nonlinear datasets") |
+| ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_2/assets/png/svmplot_linear_noslack.png "Linear kernel with provided datasets") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_2/assets/png/svmplot_linear_nonlineardata.png "Linear kernel with nonlinear datasets") |
 
 ### 2. 
 
@@ -22,25 +22,25 @@ The following plots without slack variables.
 
 | Polynomial kernel with provided datasets (p=2) | Polynomial kernel with provided datasets (p=3) |
 | ------------------------------------ | ------------------------------------ |
-| ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L2/Lab_2/assets/png/svmplot_polynomial_2_noslack.png "Polynomial kernel with provided datasets (p=2)") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L2/Lab_2/assets/png/svmplot_polynomial_3_noslack.png "Polynomial kernel with provided datasets (p=3)") |  
+| ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_2/assets/png/svmplot_polynomial_2_noslack.png "Polynomial kernel with provided datasets (p=2)") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_2/assets/png/svmplot_polynomial_3_noslack.png "Polynomial kernel with provided datasets (p=3)") |  
 
 | Polynomial kernel with provided datasets (p=4) | Polynomial kernel with provided datasets (p=5) |
 | ------------------------------------ | ------------------------------------ |
-| ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L2/Lab_2/assets/png/svmplot_polynomial_4_noslack.png "Polynomial kernel with provided datasets (p=4)") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L2/Lab_2/assets/png/svmplot_polynomial_5_noslack.png "Polynomial kernel with provided datasets (p=5)") |  
+| ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_2/assets/png/svmplot_polynomial_4_noslack.png "Polynomial kernel with provided datasets (p=4)") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_2/assets/png/svmplot_polynomial_5_noslack.png "Polynomial kernel with provided datasets (p=5)") |  
 
 | Radial kernel with provided datasets (sigma=1) | Radial kernel with provided datasets (sigma=2) |
 | ------------------------------------ | ------------------------------------ |
-| ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L2/Lab_2/assets/png/svmplot_radial_1_noslack.png "Radial kernel with provided datasets (sigma=1)") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L2/Lab_2/assets/png/svmplot_radial_2_noslack.png "Radial kernel with provided datasets (sigma=2)") |  
+| ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_2/assets/png/svmplot_radial_1_noslack.png "Radial kernel with provided datasets (sigma=1)") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_2/assets/png/svmplot_radial_2_noslack.png "Radial kernel with provided datasets (sigma=2)") |  
 
 | Radial kernel with provided datasets (sigma=1) | Radial kernel with provided datasets (sigma=3) |
 | ------------------------------------ | ------------------------------------ |
-| ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L2/Lab_2/assets/png/svmplot_radial_3_noslack.png "Radial kernel with provided datasets (sigma=3)") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L2/Lab_2/assets/png/svmplot_radial_4_noslack.png "Radial kernel with provided datasets (sigma=4)") |  
+| ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_2/assets/png/svmplot_radial_3_noslack.png "Radial kernel with provided datasets (sigma=3)") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_2/assets/png/svmplot_radial_4_noslack.png "Radial kernel with provided datasets (sigma=4)") |  
 
 #### Succcessful classification of nonlinearly separable dataset with polynomial and radial kernels 
 
 | Polynomial kernel with nonlinear datasets (p=2) | Radial kernel with nonlinear datasets (sigma=2) |
 | ------------------------------------ | ------------------------------------ |
-| ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L2/Lab_2/assets/png/svmplot_polynomial_2_nonlineardata.png "Polynomial kernel with nonlinear datasets (p=2)") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L2/Lab_2/assets/png/svmplot_radial_2_nonlineardata.png "Radial kernel with nonlinear datasets (sigma=2)") |  
+| ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_2/assets/png/svmplot_polynomial_2_nonlineardata.png "Polynomial kernel with nonlinear datasets (p=2)") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_2/assets/png/svmplot_radial_2_nonlineardata.png "Radial kernel with nonlinear datasets (sigma=2)") |  
 
 ### 3. 
 
@@ -58,7 +58,7 @@ The larger C is, the larger the smaller the decision boundary margin is. Ie the 
 
 | Linear kernel with overlapping datasets (C=0.5) | Linear kernel with overlapping datasets (C=1) | Linear kernel with overlapping datasets (C=2)
 | ------------------------------------ | ------------------------------------ | ------------------------------------ |
-| ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L2/Lab_2/assets/png/svmplot_linear_slack_C05.png "Linear kernel with overlapping datasets (C=0.5)") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L2/Lab_2/assets/png/svmplot_linear_slack_C1.png "Linear kernel with overlapping datasets (C=1)") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L2/Lab_2/assets/png/svmplot_linear_slack_C2.png "Linear kernel with overlapping datasets (C=2)") |
+| ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_2/assets/png/svmplot_linear_slack_C05.png "Linear kernel with overlapping datasets (C=0.5)") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_2/assets/png/svmplot_linear_slack_C1.png "Linear kernel with overlapping datasets (C=1)") | ![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_2/assets/png/svmplot_linear_slack_C2.png "Linear kernel with overlapping datasets (C=2)") |
 
 ### 5. 
 
