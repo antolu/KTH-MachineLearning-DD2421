@@ -149,6 +149,8 @@ mu, sigma = mlParams(X,labels)
 plotGaussian(X,labels,mu,sigma)
 ```
 
+![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_3/assets/png/plotGaussian.png)
+
 ```
 testClassifier(BayesClassifier(), dataset='iris', split=0.7)
 ```
@@ -169,7 +171,7 @@ Final mean classification accuracy  89 with standard deviation 4.16
 plotBoundary(BayesClassifier(), dataset='iris',split=0.7)
 ```
 
-![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L3/Lab_3/assets/png/BayesClassifierIris.png)
+![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_3/assets/png/BayesClassifierIris.png)
 
 ---
 
@@ -193,7 +195,7 @@ Final mean classification accuracy  64.7 with standard deviation 4.03
 plotBoundary(BayesClassifier(), dataset='vowel',split=0.7)
 ```
 
-![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L3/Lab_3/assets/png/BayesClassifierVowel.png)
+![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_3/assets/png/BayesClassifierVowel.png)
 
 ## Boosting functions to implement
 
@@ -311,7 +313,7 @@ Final mean classification accuracy  94.1 with standard deviation 6.72
 plotBoundary(BoostClassifier(BayesClassifier()), dataset='iris',split=0.7)
 ```
 
-![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L3/Lab_3/assets/png/BoostClassifierIris.png)
+![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_3/assets/png/BoostClassifierIris.png)
 
 ---
 
@@ -335,7 +337,7 @@ Final mean classification accuracy  80.2 with standard deviation 3.52
 plotBoundary(BoostClassifier(BayesClassifier()), dataset='vowel',split=0.7)
 ```
 
-![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L3/Lab_3/assets/png/BoostClassifierVowel.png)
+![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_3/assets/png/BoostClassifierVowel.png)
 
 Now repeat the steps with a decision tree classifier.
 
@@ -359,7 +361,7 @@ Final mean classification accuracy  92.4 with standard deviation 3.71
 plotBoundary(DecisionTreeClassifier(), dataset='iris',split=0.7)
 ```
 
-![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L3/Lab_3/assets/png/DecTreeClassifierIris.png)
+![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_3/assets/png/DecTreeClassifierIris.png)
 
 ---
 
@@ -383,7 +385,7 @@ Final mean classification accuracy  94.6 with standard deviation 3.65
 plotBoundary(BoostClassifier(DecisionTreeClassifier(), T=10), dataset='iris',split=0.7)
 ```
 
-![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L3/Lab_3/assets/png/BoostDecTreeClassifierIris.png)
+![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_3/assets/png/BoostDecTreeClassifierIris.png)
 
 ---
 
@@ -407,7 +409,7 @@ Final mean classification accuracy  64.1 with standard deviation 4
 plotBoundary(DecisionTreeClassifier(), dataset='vowel',split=0.7)
 ```
 
-![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L3/Lab_3/assets/png/DecTreeClassifierVowel.png)
+![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_3/assets/png/DecTreeClassifierVowel.png)
 
 ---
 
@@ -431,7 +433,7 @@ Final mean classification accuracy  86.6 with standard deviation 2.98
 plotBoundary(BoostClassifier(DecisionTreeClassifier(), T=10), dataset='vowel',split=0.7)
 ```
 
-![](https://gits-15.sys.kth.se/antolu/DD2421/blob/L3/Lab_3/assets/png/BoostDecTreeClassifierVowel.png)
+![](https://gits-15.sys.kth.se/antolu/DD2421/blob/master/Lab_3/assets/png/BoostDecTreeClassifierVowel.png)
 
 # Answers to questions
 
